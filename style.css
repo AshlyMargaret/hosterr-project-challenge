@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F9F4E8;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #555555;
+    font-size: 20px;
+}
+
+header{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.flex_box1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flex_list1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.flex_box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+    
+}
+
+.btn_header{
+   background-image: linear-gradient(to right, #EAAE53,#EA5573);
+   border: none;
+   border-radius: 25px;
+   padding: 10px 10px;
+}
+
+.btn2_header{
+    background-color:#4977EA ;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+
+main{  
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px
+           
+}
+
+.grid_box1{
+    padding-left: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+}
+h1{
+    width: 280px;
+}
+.grid_box1 p{
+    width: 410px;
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.5 rem;
+}
+
+.input_sec{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.input_box{
+    border: none;
+    padding: 20px 20px;
+    border-radius: 8px;
+}
+
+.checkbox1{ 
+    cursor: pointer;
+}
+
+
+
+.checkbox_sec label{
+    color: #555555;
+}
+.grid_box2{
+    position: relative;
+}
+
+.img1{
+    width: 250px;
+    height: 200px;
+}
+
+.box1{
+    position: absolute;
+    top:60px;
+    transform: rotate(-60deg);
+    z-index: -4;   
+    
+}
+.box2{
+    position: absolute;
+    top:60px;
+    transform: rotate(-43deg);
+    z-index: -3;     
+}
+
+.box3{
+    position: absolute;
+    top:60px;
+    transform: rotate(-30deg);
+    z-index: -2;      
+}
+
+.box4{
+    position: absolute;
+    transform: rotate(-13deg);
+    top: 67px;
+    left: 43px;
+    z-index: 9999;   
+}
+
+.fourth_img{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 40px 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+   
+}
+
+.social_list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.help_icon_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.part1{
+    color: #555555;
+}
