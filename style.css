@@ -199,7 +199,6 @@ footer{
         font-size: 12px;
     }
 
-
     main{
             grid-template-columns: 1fr;
             grid-template-areas:
@@ -241,6 +240,43 @@ footer{
     
 }
 
+@media screen and  (max-width: 576px){
+        
+    .flex_box2{
+        display: none;
+    }
+    .flex_box3{
+        display: none;
+    }
+}
+
+
+@media screen and  (max-width: 414px){
+        
+    .flex_box2{
+        display: none;
+    }
+    .flex_box3{
+        display: none;
+    }
+
+    .input_sec{
+       flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        gap:20px
+        
+    }
+
+    .help_icon_box{
+        justify-content: flex-start;
+
+    }
+
+    }
+
 
 @media screen and  (max-width: 412px){
 
@@ -255,8 +291,6 @@ footer{
         display: none;
     }
 
-    
-   
     .img_container img{
         left:40%;
         top:34%
@@ -266,10 +300,8 @@ footer{
         
         width: 100%;
     }
-    .grid_box1 p{
-        
-        width: 100%;
-        
+    .grid_box1 p{ 
+        width: 100%;  
     }
 
     .input_sec{
@@ -298,50 +330,19 @@ footer{
 }
 }
 
+@media screen and  (max-width: 360px){
+    .checkbox_sec p {
+        font-size: 15px;
+    }
+    }
+
+
 @media screen and  (max-width: 320px){
     .checkbox_sec p {
         font-size: 15px;
     }
     }
 
-    @media screen and  (max-width: 360px){
-        .checkbox_sec p {
-            font-size: 15px;
-        }
-        }
-
-    @media screen and  (max-width: 414px){
-        
-        .flex_box2{
-            display: none;
-        }
-        .flex_box3{
-            display: none;
-        }
-
-        .input_sec{
-           flex-direction: column;
-        }
-
-        footer{
-            flex-direction: column;
-            gap:20px
-            
-        }
-
-        .help_icon_box{
-            justify-content: flex-start;
-
-        }
+  
     
-        }
-
-        @media screen and  (max-width: 576px){
         
-            .flex_box2{
-                display: none;
-            }
-            .flex_box3{
-                display: none;
-            }
-        }
