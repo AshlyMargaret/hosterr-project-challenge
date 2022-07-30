@@ -185,3 +185,94 @@ footer{
 .part1{
     color: #555555;
 }
+
+/* Media Query */
+
+@media (max-width: 768px) {
+    .btn_header{
+        font-size: 12px;
+    }
+
+    a{
+        font-size: 12px;
+    }
+
+
+    main{
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "grid_box2"
+                "grid_box1";
+              
+            gap: 3em;   
+       
+    }
+
+    .grid_box2{
+        
+         grid-area: grid_box2;
+         min-height: 25em;
+             
+    }
+
+    .img_container img {
+        left: 50%;
+        margin-left: -25%;
+        top: 50%;
+        margin-top: -25%;
+        width: 16rem;
+    }
+   
+    h1{
+        font-size: 3em;
+        width: 100%;
+    }
+    .grid_box1 p{
+        font-size: 1.2em;
+        width: 100%;
+        
+    }
+
+    .input_box{
+        padding: 20px 50px;
+    }
+    
+}
+
+
+@media (max-width: 412px){
+
+    .btn_header{
+        font-size: 5px;
+    }
+
+    a{
+        font-size: 5px;
+    }
+
+    .flex_box3 button{
+        font-size: 5px;
+    }
+
+    .img_container img{
+        left:40%;
+        top:34%
+    }
+
+    h1{
+        
+        width: 85%;
+    }
+    .grid_box1 p{
+        
+        width: 85%;
+        
+    }
+
+    .input_box{
+        
+        padding: 20px 20px;
+        
+    }
+
+}
