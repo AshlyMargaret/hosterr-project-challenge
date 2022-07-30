@@ -11,6 +11,7 @@ body{
 .container{
     width: 80%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 ul{
@@ -243,6 +244,10 @@ footer{
 
 @media (max-width: 412px){
 
+    .container{
+        overflow: hidden;
+    }
+
     .flex_box2{
         display: none;
     }
@@ -269,6 +274,10 @@ footer{
 
     .input_sec{
         flex-direction: column;
+    }
+
+    .checkbox_sec p{
+        font-size: 18px;
     }
 
     footer{
