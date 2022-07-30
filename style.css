@@ -190,7 +190,7 @@ footer{
 
 /* Media Query */
 
-@media (max-width: 768px) {
+@media screen and  (max-width: 768px) {
     .btn_header{
         font-size: 12px;
     }
@@ -242,7 +242,7 @@ footer{
 }
 
 
-@media (max-width: 412px){
+@media screen and  (max-width: 412px){
 
     .container{
         overflow: hidden;
@@ -292,8 +292,50 @@ footer{
 
 }
 
-@media (max-width: 375px){
+@media screen and  (max-width: 375px){
 .checkbox_sec p {
     font-size: 17px;
 }
 }
+
+@media screen and  (max-width: 320px){
+    .checkbox_sec p {
+        font-size: 15px;
+    }
+    }
+
+    @media screen and  (max-width: 414px){
+        
+        .flex_box2{
+            display: none;
+        }
+        .flex_box3{
+            display: none;
+        }
+
+        .input_sec{
+           flex-direction: column;
+        }
+
+        footer{
+            flex-direction: column;
+            gap:20px
+            
+        }
+
+        .help_icon_box{
+            justify-content: flex-start;
+
+        }
+    
+        }
+
+        @media screen and  (max-width: 576px){
+        
+            .flex_box2{
+                display: none;
+            }
+            .flex_box3{
+                display: none;
+            }
+        }
