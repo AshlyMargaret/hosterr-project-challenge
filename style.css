@@ -163,6 +163,7 @@ h1{
 
 footer{
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content:space-between; 
@@ -242,18 +243,15 @@ footer{
 
 @media (max-width: 412px){
 
-    .btn_header{
-        font-size: 5px;
+    .flex_box2{
+        display: none;
+    }
+    .flex_box3{
+        display: none;
     }
 
-    a{
-        font-size: 5px;
-    }
-
-    .flex_box3 button{
-        font-size: 5px;
-    }
-
+    
+   
     .img_container img{
         left:40%;
         top:34%
@@ -261,11 +259,11 @@ footer{
 
     h1{
         
-        width: 80%;
+        width: 100%;
     }
     .grid_box1 p{
         
-        width: 80%;
+        width: 100%;
         
     }
 
@@ -276,7 +274,7 @@ footer{
     footer{
         align-items:flex-start;
         flex-direction: column;
-        gap:10px
+        gap:20px
     }
 
     footer a{
